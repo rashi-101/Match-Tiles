@@ -1,0 +1,76 @@
+body{
+    margin:0;
+}
+*{
+    box-sizing: border-box;
+}
+.top-container, .bottom-container{
+    height:15vh;
+    background-color: lightsteelblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main-container{
+    height:70vh;
+    background-color: lightgray;
+    display: flex;
+    justify-content: center;
+}
+.score-container,.game-start{
+    font-size: 2rem;
+    font-weight: 800;
+    color:teal;
+    border:4px solid rgb(107, 130, 161);
+    background-color:rgb(221, 221, 221);
+    height: 50%;
+    width:22%;
+    min-width:10rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 50%;
+}
+.updated-score{
+    font-size:3rem;
+}
+.grid-container{
+    height:100%;
+    background-color: lightsteelblue;
+    width: calc( 70vh );
+    display:flex;
+    flex-wrap: wrap;
+    border:4px solid rgb(107, 130, 161);
+}
+.puzzle{
+    border:none;
+    height:25%;
+    width:25%;
+    background-size: 280px 200px;
+    background-image: url("puzzle.jfif");
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.arnab{
+    background-image: url("arnab.jfif");
+    background-size: 150px 140px;
+}
+.modi{
+    background-image: url("modi.jfif");
+    background-size: 150px 140px;
+}
+.ravish{
+    background-image: url("ravish.jfif");
+    background-size: 180px 140px;
+
+}
+.kejri{
+    background-image: url("kejri.jfif");
+    background-size: 150px 140px;
+}
+.color{
+    color: teal;
+    font-size: 5rem;
+}
+
