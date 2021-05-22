@@ -75,6 +75,6 @@ body{
 }
 @media only screen and (max-device-width: 480px) {
     .score-container,.game-start{
-        width:70%;
+        width:100%;
     }
 }
